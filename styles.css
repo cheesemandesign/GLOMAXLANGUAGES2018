@@ -14,7 +14,8 @@ header {
     align-items: center;     /* 垂直置中 */
     flex-direction: row;
     /* 如果你的 header 沒有高度，記得給它一個高度才看得到垂直置中效果 */
-    min-height: 80px; 
+    min-height: 80px;
+    background: #000000B2;
 }
 section {
     display: flex;
