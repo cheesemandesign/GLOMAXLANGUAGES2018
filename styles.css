@@ -21,6 +21,10 @@ section {
     flex-direction: column; /* 讓所有 section 乖乖從上到下排好 */
     width: 100%;
 }
-header div nav{
+header div nav ul{
     display:flex;
+}
+header div nav ul li{
+    display:block;
+    list-style:none;
 }
