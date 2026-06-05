@@ -6,3 +6,8 @@ body {
 body .logo {
   width = 30px;
 }
+section {
+    display: flex;
+    flex-direction: column; /* 讓所有 section 乖乖從上到下排好 */
+    width: 100%;
+}
