@@ -2,7 +2,7 @@ body {
   margin:0;
   color:white;
   background: #031144;
-  background: url("images/bg_main.png");
+  background: url("images/bg_main.PNG");
 }
 
 body header img.logo {
