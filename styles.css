@@ -21,6 +21,6 @@ section {
     flex-direction: column; /* 讓所有 section 乖乖從上到下排好 */
     width: 100%;
 }
-header div nav li{
-    display:inline;
+header div nav{
+    display:flex;
 }
