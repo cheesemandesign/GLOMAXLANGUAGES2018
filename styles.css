@@ -36,12 +36,13 @@ header nav ul li {
     width:130px;
     cursor:pointer;
     text-align:center;
-    padding-bottom: 12px;
+    padding-bottom: 20px;
 }
 header nav ul li:hover {
     background-image:url('images/light_y.png');
-    background-position: center -55px;
+    background-position: center -44px;
     background-size:120%;
+    color:#ffc60d;
 }
 section.banner {
     display: flex;
