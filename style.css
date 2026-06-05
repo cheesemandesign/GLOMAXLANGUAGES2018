@@ -4,7 +4,7 @@ body {
 }
 
 body .logo {
-  width = 30px;
+  width = 190px;
 }
 header,section {
     display: flex;
