@@ -4,6 +4,7 @@ body {
   background: #031144 url("images/bg_main.PNG") no-repeat local center / cover;
   /*background-size: 150px auto;*/
   background-position: center top;
+  letter-spacing:3px;
 }
 
 body header img.logo {
@@ -32,7 +33,7 @@ header nav ul {
 header nav ul li {
     margin: 6px 12px;
     list-style:none;
-    width:60px;
+    width:130px;
 }
 section.banner {
     display: flex;
