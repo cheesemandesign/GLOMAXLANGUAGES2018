@@ -39,7 +39,8 @@ header nav ul li {
 }
 header nav ul li:hover {
     background-image:url('images/light_y.png');
-    background-position:center bottom;
+    background-position:-15px center;
+    background-size:120%;
 }
 section.banner {
     display: flex;
