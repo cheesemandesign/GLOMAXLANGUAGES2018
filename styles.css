@@ -4,7 +4,7 @@ body {
   background: #031144;
 }
 
-body .logo {
+body img.logo {
   width = 190px;
 }
 header,section {
