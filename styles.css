@@ -36,7 +36,7 @@ header nav ul li {
     width:130px;
     cursor:pointer;
     text-align:center;
-    padding-bottom: 6px;
+    padding-bottom: 12px;
 }
 header nav ul li:hover {
     background-image:url('images/light_y.png');
