@@ -35,9 +35,11 @@ header nav ul li {
     list-style:none;
     width:130px;
     cursor:pointer;
+    text-align:center;
 }
 header nav ul li:hover {
-    background-color:#FFFFFFAA;
+    background-image:url('images/light_y.png');
+    background-position:center bottom;
 }
 section.banner {
     display: flex;
