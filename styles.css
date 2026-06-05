@@ -32,3 +32,10 @@ header nav ul li {
     margin: 6px 12px;
     list-style:none;
 }
+section.banner {
+    display: flex;
+    flex-direction: column; /* 元件由上往下排 */
+    
+    /* ➔ 關鍵：讓裡面所有元件（包含標題）「左右置中」 */
+    align-items: center;
+}
