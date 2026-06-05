@@ -2,7 +2,7 @@ body {
   margin:0;
   color:white;
   background: #031144 url("images/bg_main.PNG") no-repeat local center / cover;
-  background-size: 150px auto;
+  /*background-size: 150px auto;*/
   background-position: center top;
 }
 
