@@ -27,10 +27,12 @@ section {
 header nav ul {
     display:flex;
     flex-direction: row;
+    align-items: center;
 }
 header nav ul li {
     margin: 6px 12px;
     list-style:none;
+    width:60px;
 }
 section.banner {
     display: flex;
