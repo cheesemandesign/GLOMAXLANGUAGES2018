@@ -36,6 +36,9 @@ header nav ul li {
     width:130px;
     cursor:pointer;
 }
+header nav ul li:hover {
+    background-color:#FFFFFFAA;
+}
 section.banner {
     display: flex;
     flex-direction: column; /* 元件由上往下排 */
