@@ -8,20 +8,19 @@ body header img.logo {
   width: 100% ;
   max-width:190px;
 }
+header {
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center;     /* 垂直置中 */
+    flex-direction: row;
+    /* 如果你的 header 沒有高度，記得給它一個高度才看得到垂直置中效果 */
+    min-height: 80px; 
+}
 section {
     display: flex;
     flex-direction: column; /* 讓所有 section 乖乖從上到下排好 */
     width: 100%;
 }
-header {
-    display: flex;
-    justify-content: center; /* 水平置中 */
-    align-items: center;     /* 垂直置中 */
-    
-    /* 如果你的 header 沒有高度，記得給它一個高度才看得到垂直置中效果 */
-    min-height: 80px; 
-}
-header div {
-    width:1200px;
-    
+header div nav li{
+    display:inline;
 }
