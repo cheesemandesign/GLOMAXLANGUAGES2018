@@ -23,6 +23,7 @@ section {
 }
 header div nav ul{
     display:flex;
+    flex-direction: row;
 }
 header div nav ul li{
     display:block;
