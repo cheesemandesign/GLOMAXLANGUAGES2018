@@ -39,7 +39,7 @@ header nav ul li {
 }
 header nav ul li:hover {
     background-image:url('images/light_y.png');
-    background-position:-15px center;
+    background-position: center -55px;
     background-size:120%;
 }
 section.banner {
