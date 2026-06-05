@@ -15,7 +15,7 @@ header {
     flex-direction: row;
     /* 如果你的 header 沒有高度，記得給它一個高度才看得到垂直置中效果 */
     min-height: 80px;
-    background: #000000B2;
+    background: #00000066;
 }
 section {
     display: flex;
@@ -27,5 +27,6 @@ header nav ul {
     flex-direction: row;
 }
 header nav ul li {
+    margin: 6px 12px;
     list-style:none;
 }
