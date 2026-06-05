@@ -34,6 +34,7 @@ header nav ul li {
     margin: 6px 12px;
     list-style:none;
     width:130px;
+    cursor:pointer;
 }
 section.banner {
     display: flex;
