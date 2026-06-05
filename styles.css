@@ -4,12 +4,24 @@ body {
   background: #031144;
 }
 
-body img.logo {
+body header img.logo {
   width: 100% ;
   max-width:190px;
 }
-header,section {
+section {
     display: flex;
     flex-direction: column; /* 讓所有 section 乖乖從上到下排好 */
     width: 100%;
+}
+header {
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center;     /* 垂直置中 */
+    
+    /* 如果你的 header 沒有高度，記得給它一個高度才看得到垂直置中效果 */
+    min-height: 80px; 
+}
+header div {
+    width:1200px;
+    
 }
