@@ -73,7 +73,7 @@ section.banner ul{
 section.banner ul li {
     list-style:none;
     /*display:block;*/
-    background: url("images/flags1.png");
+    background: url("images/flags2.png");
     height: 80px;
     width:100px;
     background-size:600%;
