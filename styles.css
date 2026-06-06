@@ -71,6 +71,7 @@ section.banner h1{
     background-image: url("images/light_b.png");
     background-position: center bottom;
     background-size: contain;
+    display:inline-block;
 }
 section.banner ul{
     display: flex;
