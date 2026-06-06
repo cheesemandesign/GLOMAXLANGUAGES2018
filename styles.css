@@ -77,6 +77,22 @@ section.banner ul li {
     height: 80px;
     width:100px;
     background-size:600%;
-    
 }
-  
+/* 抓第一個 li */
+section.banner ul li:nth-child(1) {  }
+
+/* 抓第二個 li */
+section.banner ul li:nth-child(2) { background-position:top 242px; }
+
+/* 抓第三個 li */
+section.banner ul li:nth-child(3) { background-position:top 484px; }
+
+/* 抓第四個 li */
+section.banner ul li:nth-child(4) { background-position:top 726px; }
+
+/* 抓第五個 li */
+section.banner ul li:nth-child(5) { background-position:top 968px; }
+
+/* 抓第六個 li */
+section.banner ul li:nth-child(6) { background-position:top 1210px;
+
