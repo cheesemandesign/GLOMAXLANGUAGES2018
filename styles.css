@@ -74,26 +74,26 @@ section.banner ul li {
     list-style:none;
     /*display:block;*/
     background: url("images/flags2.png");
-    height: 85px;
-    width:100px;
-    /*background-size:600%;*/
+    height: 84px;
+    width:84px;
+    background-size:600%;
     margin:0 6px;
 }
 /* 抓第一個 li */
 section.banner ul li:nth-child(1) { background-position-x:0; }
 
 /* 抓第二個 li */
-section.banner ul li:nth-child(2) { background-position-x:-200px; }
+section.banner ul li:nth-child(2) { background-position-x:-98px; }
 
 /* 抓第三個 li */
-section.banner ul li:nth-child(3) { background-position-x:-400px; }
+section.banner ul li:nth-child(3) { background-position-x:-197px; }
 
 /* 抓第四個 li */
-section.banner ul li:nth-child(4) { background-position-x:-600px; }
+section.banner ul li:nth-child(4) { background-position-x:-303px; }
 
 /* 抓第五個 li */
-section.banner ul li:nth-child(5) { background-position-x:-800px; }
+section.banner ul li:nth-child(5) { background-position-x:-994px; }
 
 /* 抓第六個 li */
-section.banner ul li:nth-child(6) { background-position-x:-1000px; }
+section.banner ul li:nth-child(6) { background-position-x:-1091px; }
 
