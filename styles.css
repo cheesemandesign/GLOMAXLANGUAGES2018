@@ -65,11 +65,11 @@ section.banner {
     align-items: center;
 }
 section.banner h1{
-    font-size: 60px;
-    padding-bottom: 40px;
+    font-size: 50px;
+    padding-bottom: 50px;
     background-image: url("images/light_b.png");
-    background-position: center bottom；
-    background-size:300%;
+    background-position: center bottom;
+    background-size: 300%;
 }
 section.banner ul{
     display: flex;
