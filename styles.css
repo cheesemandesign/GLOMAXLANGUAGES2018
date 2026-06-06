@@ -76,7 +76,7 @@ section.banner ul li {
     background: url("images/flags2.png");
     height: 85px;
     width:100px;
-    background-size:600%;
+    /*background-size:600%;*/
     margin:0 6px;
 }
 /* 抓第一個 li */
