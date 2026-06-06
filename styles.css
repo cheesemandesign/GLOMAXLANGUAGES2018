@@ -74,9 +74,10 @@ section.banner ul li {
     list-style:none;
     /*display:block;*/
     background: url("images/flags2.png");
-    height: 80px;
+    height: 90px;
     width:100px;
     background-size:600%;
+    margin:0 6px;
 }
 /* 抓第一個 li */
 section.banner ul li:nth-child(1) {  }
