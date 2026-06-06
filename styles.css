@@ -80,20 +80,20 @@ section.banner ul li {
     margin:0 6px;
 }
 /* 抓第一個 li */
-section.banner ul li:nth-child(1) { background-position:0 0; }
+section.banner ul li:nth-child(1) { background-position-x:0; }
 
 /* 抓第二個 li */
-section.banner ul li:nth-child(2) { background-position:0 -242px; }
+section.banner ul li:nth-child(2) { background-position-x:-242px; }
 
 /* 抓第三個 li */
-section.banner ul li:nth-child(3) { background-position:0 -484px; }
+section.banner ul li:nth-child(3) { background-position-x:-484px; }
 
 /* 抓第四個 li */
-section.banner ul li:nth-child(4) { background-position:0 -726px; }
+section.banner ul li:nth-child(4) { background-position-x:-726px; }
 
 /* 抓第五個 li */
-section.banner ul li:nth-child(5) { background-position:0 -968px; }
+section.banner ul li:nth-child(5) { background-position-x:-968px; }
 
 /* 抓第六個 li */
-section.banner ul li:nth-child(6) { background-position:0 -1210px; }
+section.banner ul li:nth-child(6) { background-position-x:-1210px; }
 
