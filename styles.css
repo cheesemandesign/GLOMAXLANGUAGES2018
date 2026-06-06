@@ -18,7 +18,7 @@ header {
     flex-direction: row;
     /* 如果你的 header 沒有高度，記得給它一個高度才看得到垂直置中效果 */
     min-height: 80px;
-    background: #00000066;
+    background: #000000AA;
     position: sticky;
 
     /* 1. 綁定滾動動畫 */
@@ -30,7 +30,7 @@ header {
 @keyframes scrollHide {
   to {
     transform: translateY(-100%);
-    background-color: rgba(51, 51, 51, 0.9); /* 順便變稍微透明 */
+    background-color: rgba(51, 51, 51, 0.1); /* 順便變稍微透明 */
   }
 }
 section {
