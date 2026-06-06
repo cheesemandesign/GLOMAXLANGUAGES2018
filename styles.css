@@ -60,4 +60,7 @@ section.banner ul{
 section.banner ul li {
     list-style:none;
     display:block;
+    background: url("images/flags.png");
+    height: 60px;
+    width:60px;
 }
