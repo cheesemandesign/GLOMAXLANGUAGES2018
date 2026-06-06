@@ -74,8 +74,9 @@ section.banner ul li {
     list-style:none;
     /*display:block;*/
     background: url("images/flags.png");
-    height: 100px;
+    height: 80px;
     width:100px;
     background-size:600%;
+    background-position:20%;
 }
   
