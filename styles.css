@@ -51,6 +51,7 @@ header nav ul li {
     cursor:pointer;
     text-align:center;
     padding-bottom: 20px;
+    font-size:20px;
 }
 header nav ul li:hover {
     background-image:url('images/light_y.png');
@@ -72,6 +73,12 @@ section.banner h1{
     background-position: center bottom;
     background-size: contain;
     display:inline-block;
+}
+section.banner h2{
+
+}
+section.banner h2 span{
+    margin:4px;
 }
 section.banner ul{
     display: flex;
