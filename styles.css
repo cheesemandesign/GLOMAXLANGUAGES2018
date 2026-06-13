@@ -142,3 +142,13 @@ section.banner ul li:hover {
 section.aboutUs {
   background:#000008;
 }
+section.aboutUs ul.category{
+  display:
+}
+section.aboutUs ul li{
+  background:url("images/frame.png");
+  background-size:contain;
+  width:70%;
+  height:373px;
+  margin: auto 0;
+}
