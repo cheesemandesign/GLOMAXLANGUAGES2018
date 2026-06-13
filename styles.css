@@ -148,11 +148,8 @@ section.aboutUs ul.category {
   width:400%;
 }
 section.aboutUs>ul.category>li {
-    background: rgba(225, 0, 8, 0.7), url(images/frame.png);
-    background-size: contain;
-    background-position:center;
+    background: rgba(225, 0, 8, 0.7), url(images/frame.png) no-repeat local center / contain;;
     width: 670px;
     height: 373px;
     margin: 0 auto;
-    background-repeat: no-repeat;
 }
