@@ -145,10 +145,12 @@ section.aboutUs {
 section.aboutUs ul.category {
   display:flex;
   align-item:center;
+  width:400%;
 }
 section.aboutUs>ul.category>li {
-    background: url(images/frame.png);
+    background: rgba(225, 0, 8, 0.7), url(images/frame.png);
     background-size: contain;
+    background-position:center;
     width: 670px;
     height: 373px;
     margin: 0 auto;
