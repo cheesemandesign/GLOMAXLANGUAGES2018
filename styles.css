@@ -9,7 +9,7 @@ body {
   font-weight:200;
 }
 body div.parallax-bg {
-   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
+   background: linear-gradient(rgba(0, 0, 8, 0.7), rgba(0, 0, 8, 1)),
               url("images/bg_main.PNG") no-repeat local center / cover;
     /*background-size: 150px auto;*/
     background-position: center top;
@@ -31,7 +31,7 @@ header {
     flex-direction: row;
     /* 如果你的 header 沒有高度，記得給它一個高度才看得到垂直置中效果 */
     min-height: 80px;
-    background: #000000AA;
+    background: #000008AA;
     position: sticky;
 
     /* 1. 綁定滾動動畫 */
