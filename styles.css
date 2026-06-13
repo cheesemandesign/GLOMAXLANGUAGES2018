@@ -8,7 +8,7 @@ body {
   letter-spacing:3px;
   font-weight:200;
 }
-body div.parallax {
+body div.parallax-bg {
    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
               url("images/bg_main.PNG") no-repeat local center / cover;
     /*background-size: 150px auto;*/
