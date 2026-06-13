@@ -4,7 +4,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  perspective: 1px; /* 關鍵：設定 3D 的透視深度 */
+  perspective: .5px; /* 關鍵：設定 3D 的透視深度 */
   letter-spacing:3px;
   font-weight:200;
 }
@@ -17,11 +17,12 @@ body div.parallax-bg {
     top: 0; left: 0; right: 0; bottom: 0;
   
   /* 關鍵：往 Z 軸後面推 2px，並放大 3 倍維持本來的大小 */
-    transform: translateZ(-2px) scale(3);
+    transform: translateZ(-1px) scale(3);
     z-index: -1;
 }
 main {
   position:relative;
+  height: 100vh;
 }
 body header img.logo {
   width: 100% ;
