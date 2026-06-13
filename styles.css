@@ -9,7 +9,7 @@ body {
   font-weight:200;
 }
 body div.parallax {
-   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
               url("images/bg_main.PNG") no-repeat local center / cover;
     /*background-size: 150px auto;*/
     background-position: center top;
