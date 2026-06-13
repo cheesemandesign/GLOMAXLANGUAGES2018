@@ -6,7 +6,7 @@ body {
   /*background-size: 150px auto;*/
   background-position: center top;
   letter-spacing:3px;
-  font-weight:200px;
+  font-weight:200;
 }
 
 body header img.logo {
@@ -75,9 +75,11 @@ section.banner h1{
     background-size: 100%;
     display:inline-block;
     margin-bottom:0;
+    font-weight:200;
 }
 section.banner h2{
     margin-top:0;
+    font-weight:200;
 }
 section.banner h2 span{
     margin:4px;
@@ -98,6 +100,7 @@ section.banner ul li {
     background-size:700%;
     margin:0 6px;
     border-radius: 50%;
+    cursor: pointer;
 }
 /* 抓第一個 li */
 section.banner ul li:nth-child(1) { background-position-x:0; }
