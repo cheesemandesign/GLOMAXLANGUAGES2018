@@ -115,5 +115,6 @@ section.banner ul li:nth-child(5) { background-position-x:-994px; }
 /* 抓第六個 li */
 section.banner ul li:nth-child(6) { background-position-x:-1091px; }
 section.banner ul li:hover {
-  box-shadow: 0 0 20px #00e676;
+  box-shadow: 0 0 20px #4cb7ed;
+  border:1px solid #4cb7ed;
 }
