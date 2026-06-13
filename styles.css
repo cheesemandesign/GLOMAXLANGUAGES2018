@@ -20,6 +20,9 @@ body div.parallax-bg {
     transform: translateZ(-2px) scale(3);
     z-index: -1;
 }
+main {
+  position:relative;
+}
 body header img.logo {
   width: 100% ;
   max-width:150px;
