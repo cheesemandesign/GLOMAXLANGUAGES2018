@@ -22,7 +22,7 @@ body div.parallax-bg {
 }
 body header img.logo {
   width: 100% ;
-  max-width:190px;
+  max-width:120px;
 }
 header {
     display: flex;
