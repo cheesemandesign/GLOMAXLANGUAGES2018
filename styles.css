@@ -68,14 +68,15 @@ section.banner {
 }
 section.banner h1{
     font-size: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 88px;
     background-image: url("images/light_b.png");
-    background-position: center bottom;
-    background-size: contain;
+    background-position: center 230px;
+    background-size: 100%;
     display:inline-block;
+    margin-bottom:0;
 }
 section.banner h2{
-
+    margin-top:0;
 }
 section.banner h2 span{
     margin:4px;
@@ -94,6 +95,7 @@ section.banner ul li {
     width:84px;
     background-size:700%;
     margin:0 6px;
+    border-radius: 50%;
 }
 /* 抓第一個 li */
 section.banner ul li:nth-child(1) { background-position-x:0; }
@@ -112,4 +114,6 @@ section.banner ul li:nth-child(5) { background-position-x:-994px; }
 
 /* 抓第六個 li */
 section.banner ul li:nth-child(6) { background-position-x:-1091px; }
-
+section.banner ul li:hover {
+  box-shadow: 0 0 20px #00e676;
+}
