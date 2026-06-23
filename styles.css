@@ -149,7 +149,7 @@ section.aboutUs ul.category {
 }
 section.aboutUs>ul.category>li {
     background: url(images/frames.png) no-repeat local center / contain;
-    width: 670px;
-    height: 373px;
+    display:inline-block;
     margin: 0 auto;
+    
 }
