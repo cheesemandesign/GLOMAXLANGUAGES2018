@@ -157,7 +157,7 @@ section.aboutUs>ul.category>li {
 /* 輪播外框容器 */
         .carousel-container {
             position: relative;
-            max-width: 800px;
+            width: 800px;
             margin: 50px auto;
             overflow: hidden;
             border-radius: 10px;
