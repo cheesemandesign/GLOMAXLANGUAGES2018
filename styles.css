@@ -167,7 +167,7 @@ section.aboutUs>ul.category>li {
         .carousel-slide {
             display: flex;
             transition: transform 0.5s ease-in-out;
-            width: 100%;
+            width: max-content;
             list-style: none;
             margin: 0;
             padding: 0;
