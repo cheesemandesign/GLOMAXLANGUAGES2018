@@ -146,14 +146,12 @@ section.aboutUs {
 section.aboutUs ul.category {
   display:flex;
   align-item:center;
-  width:400%;
 }
 section.aboutUs>ul.category>li {
     background: no-repeat url(images/frames.png);
     background-size:cover ;
     display:inline-block;
     margin: 0 auto;
-    background-size: 25%;
 }
 /* 輪播外框容器 */
         .carousel-container {
