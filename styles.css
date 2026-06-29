@@ -147,7 +147,7 @@ section.aboutUs ul.category {
   display:flex;
   align-item:center;
   margin:0 auto;
-  max-width:1200px;
+  max-width:800px;
 }
 section.aboutUs>ul.category>li {
     background: no-repeat url(images/frames.png);
