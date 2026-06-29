@@ -215,3 +215,8 @@ section.aboutUs>ul.category>li {
         .btn:hover { radial-gradient(circle at center, #AAAAFF 0%, #AAAAFF55 40%, #aaaaaa00 100%) }
         .prev { left: 10px; }
         .next { right: 10px; }
+
+section.aboutUs>ul.category>li>*{
+  padding:0;
+  margin:0;
+}
