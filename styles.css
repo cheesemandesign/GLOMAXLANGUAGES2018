@@ -175,7 +175,7 @@ section.aboutUs>ul.category>li {
         }
 
         /* 每個 li 就是一個內容區塊 */
-        .carousel-slide li {
+        .carousel-slide>li {
             width: 100%;
             height:533px; /* 設定輪播卡片的高度 */
             flex-shrink: 0;
@@ -217,6 +217,12 @@ section.aboutUs>ul.category>li {
         .next { right: 10px; }
 
 section.aboutUs>ul.category>li>*{
-  padding:0;
-  margin:0;
+    padding:0;
+    margin:0;
+}
+section.aboutUs>ul.category>li>ol{
+    
+}
+section.aboutUs>ul.category>li>ol li{
+    
 }
