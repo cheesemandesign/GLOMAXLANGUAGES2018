@@ -189,11 +189,10 @@ section.aboutUs>ul.category>li {
             font-weight: bold;
         }
 
-        /* 給個別的 li 不同的背景顏色，方便辨識 */
-        li.slide-1 { background-position-y: 0; }
-        li.slide-2 { background-position-y: 33%; }
-        li.slide-3 { background-position-y: 67%; }
-        li.slide-4 { background-position-y: 100%; }
+        section.aboutUs>ul.category>li.slide-1 { background-position-y: 0; }
+        section.aboutUs>ul.category>li.slide-2 { background-position-y: 33%; }
+        section.aboutUs>ul.category>li.slide-3 { background-position-y: 67%; }
+        section.aboutUs>ul.category>li.slide-4 { background-position-y: 100%; }
 
         /* 左右按鈕樣式 */
         .btn {
