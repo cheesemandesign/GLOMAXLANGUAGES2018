@@ -117,7 +117,7 @@ section.banner ul li {
     margin:0 6px;
     border-radius: 50%;
     cursor: pointer;
-    height:433px;
+
 }
 /* 抓第一個 li */
 section.banner ul li:nth-child(1) { background-position-x:0; }
@@ -178,7 +178,7 @@ section.aboutUs>ul.category>li {
         /* 每個 li 就是一個內容區塊 */
         .carousel-slide li {
             width: 100%;
-            height: 250px; /* 設定輪播卡片的高度 */
+            height:433px; /* 設定輪播卡片的高度 */
             flex-shrink: 0;
             
             /* 以下是為了讓 li 裡面的純文字能垂直水平置中，可依需求修改 */
