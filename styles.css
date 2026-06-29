@@ -192,9 +192,9 @@ section.aboutUs>ul.category>li {
         }
 
         section.aboutUs>ul.category>li.slide-1 { background-position-y: 0; }
-        section.aboutUs>ul.category>li.slide-2 { background-position-y: 33%; }
-        section.aboutUs>ul.category>li.slide-3 { background-position-y: 67%; }
-        section.aboutUs>ul.category>li.slide-4 { background-position-y: 100%; }
+        section.aboutUs>ul.category>li.slide-2 { background-position-y: 32.5%; }
+        section.aboutUs>ul.category>li.slide-3 { background-position-y: 65%; }
+        section.aboutUs>ul.category>li.slide-4 { background-position-y: 97.5%; }
 
         /* 左右按鈕樣式 */
         .btn {
