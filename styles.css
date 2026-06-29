@@ -208,8 +208,10 @@ section.aboutUs>ul.category>li {
             font-size: 18px;
             border-radius: 50%;
             transition: 0.3s;
+            width:15px;
+            height:15px;
         }
 
-        .btn:hover { background-color: rgba(0, 0, 0, 0.7); }
+        .btn:hover { background-color: rgba(0, 0, 6, 0.7); }
         .prev { left: 10px; }
         .next { right: 10px; }
