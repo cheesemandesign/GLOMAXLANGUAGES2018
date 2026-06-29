@@ -203,13 +203,13 @@ section.aboutUs>ul.category>li {
             background-color: rgba(0, 0, 0, 0.3);
             color: white;
             border: none;
-            padding: 15px;
+            /*padding: 15px;*/
             cursor: pointer;
             font-size: 18px;
             border-radius: 50%;
             transition: 0.3s;
-            width:15px;
-            height:15px;
+            width:35px;
+            height:35px;
         }
 
         .btn:hover { background-color: rgba(0, 0, 6, 0.7); }
