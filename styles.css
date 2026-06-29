@@ -212,6 +212,6 @@ section.aboutUs>ul.category>li {
             height:35px;
         }
 
-        .btn:hover { background-color: rgba(0, 0, 6, 0.7); }
+        .btn:hover { background: radial-gradient(circle at center, #ffffff 0%, #e0e0e0 40%, #aaaaaa 100%); }
         .prev { left: 10px; }
         .next { right: 10px; }
