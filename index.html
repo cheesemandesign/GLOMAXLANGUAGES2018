@@ -97,4 +97,21 @@
         </section>
     </main>
 </body>
+    <script>
+        let currentIndex = 0;
+        const slide = document.querySelector('.carousel-slide');
+        const totalSlides = document.querySelectorAll('.carousel-slide li').length;
+
+        function moveSlide(direction) {
+            currentIndex += direction;
+
+            if (currentIndex >= totalSlides) {
+                currentIndex = 0;
+            } else if (currentIndex < 0) {
+                currentIndex = totalSlides - 1;
+            }
+
+            slide.style.transform = `translateX(${-currentIndex * 100}%)`;
+        }
+    </script>
 </html>
