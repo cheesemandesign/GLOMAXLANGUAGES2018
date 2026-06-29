@@ -148,7 +148,9 @@ section.aboutUs ul.category {
   width:400%;
 }
 section.aboutUs>ul.category>li {
-    background: url(images/frames.png) no-repeat local center / contain;
+    background-image: url(images/frames.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
     display:inline-block;
     margin: 0 auto;
     
@@ -190,9 +192,10 @@ section.aboutUs>ul.category>li {
         }
 
         /* 給個別的 li 不同的背景顏色，方便辨識 */
-        .slide-1 { background-color: #3498db; }
-        .slide-2 { background-color: #e74c3c; }
-        .slide-3 { background-color: #2ecc71; }
+        .slide-1 { /*background-color: #3498db;*/ }
+        .slide-2 { /*background-color: #e74c3c;*/ }
+        .slide-3 { /*background-color: #2ecc71;*/ }
+        .slide-4 { /*background-color: #2ecc71;*/ }
 
         /* 左右按鈕樣式 */
         .btn {
