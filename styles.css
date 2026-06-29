@@ -148,18 +148,17 @@ section.aboutUs ul.category {
   width:400%;
 }
 section.aboutUs>ul.category>li {
-    background-image: url(images/frames.png);
-    background-repeat: no-repeat;
+    background: no-repeat url(images/frames.png);
     background-size:cover ;
     display:inline-block;
     margin: 0 auto;
-    
+    background-size: 25%;
 }
 /* 輪播外框容器 */
         .carousel-container {
             position: relative;
-            max-width: 600px;
-            margin: 50px auto;
+            /*max-width: 600px;
+            margin: 50px auto;*/
             overflow: hidden;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
@@ -192,10 +191,10 @@ section.aboutUs>ul.category>li {
         }
 
         /* 給個別的 li 不同的背景顏色，方便辨識 */
-        .slide-1 { /*background-color: #3498db;*/ }
-        .slide-2 { /*background-color: #e74c3c;*/ }
-        .slide-3 { /*background-color: #2ecc71;*/ }
-        .slide-4 { /*background-color: #2ecc71;*/ }
+        .slide-1 { background-position-y: 0; }
+        .slide-2 { background-position-y: 33%; }
+        .slide-3 { background-position-y: 67%; }
+        .slide-4 { background-position-y: 100%; }
 
         /* 左右按鈕樣式 */
         .btn {
