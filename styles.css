@@ -117,6 +117,7 @@ section.banner ul li {
     margin:0 6px;
     border-radius: 50%;
     cursor: pointer;
+    height:433px;
 }
 /* 抓第一個 li */
 section.banner ul li:nth-child(1) { background-position-x:0; }
