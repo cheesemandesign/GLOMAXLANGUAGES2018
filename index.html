@@ -100,17 +100,21 @@
     <script>
         let currentIndex = 0;
         const slide = document.querySelector('.carousel-slide');
-        const totalSlides = document.querySelectorAll('.carousel-slide li').length;
-
+        
+        // 既然只有 4 張，我們直接鎖死總數為 4，不讓瀏覽器亂抓
+        const totalSlides = 4; 
+        
         function moveSlide(direction) {
             currentIndex += direction;
-
+        
+            // 關鍵防護：只要索引值大於等於 4（到了第五張），就立刻秒回第 0 張（第一張）
             if (currentIndex >= totalSlides) {
                 currentIndex = 0;
             } else if (currentIndex < 0) {
-                currentIndex = totalSlides - 1;
+                currentIndex = totalSlides - 1; // 小於 0 就去第三張（第四張圖）
             }
-
+        
+            // 移動最大極限只會到 -300%，一到 -400% 就會觸發上面的條件變回 0%
             slide.style.transform = `translateX(${-currentIndex * 100}%)`;
         }
     </script>
