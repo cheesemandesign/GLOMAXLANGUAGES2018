@@ -146,8 +146,6 @@ section.aboutUs {
 section.aboutUs ul.category {
   display:flex;
   align-item:center;
-  margin:0 auto;
-  max-width:800px;
 }
 section.aboutUs>ul.category>li {
     background: no-repeat url(images/frames.png);
@@ -158,8 +156,8 @@ section.aboutUs>ul.category>li {
 /* 輪播外框容器 */
         .carousel-container {
             position: relative;
-            /*max-width: 600px;
-            margin: 50px auto;*/
+            max-width: 600px;
+            margin: 50px auto;
             overflow: hidden;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
