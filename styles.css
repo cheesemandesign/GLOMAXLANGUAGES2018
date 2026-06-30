@@ -222,13 +222,16 @@ section.aboutUs>ul.category>li>*{
     font-family:monospace;
     text-align:center;
 }
-section.aboutUs>ul.category>li>h1{
+section.aboutUs>ul.category>li>h3{
   margin-top:90px;
   font-size:75px;
 }
-section.aboutUs>ul.category>li>h2{
+section.aboutUs>ul.category>li>h4{
   margin-top:-30px;
   font-size:88px;
+}
+section.aboutUs>ul.category>li>h5{
+  /**/
 }
 section.aboutUs>ul.category>li>ol{
     
