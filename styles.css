@@ -221,20 +221,21 @@ section.aboutUs>ul.category>li>*{
     margin:0 0 0 44%;
     font-family:monospace;
     text-align:center;
+    width: 350px;
 }
 section.aboutUs>ul.category>li>h3{
-  margin-top:90px;
-  font-size:75px;
+  margin-top:68px;
+  font-size:60px;
 }
 section.aboutUs>ul.category>li>h4{
-  margin-top:-30px;
-  font-size:88px;
+  margin-top:-20px;
+  font-size:70px;
 }
 section.aboutUs>ul.category>li>h5{
   /**/
 }
 section.aboutUs>ul.category>li>ol{
-    
+    font-size:16px;
     
 }
 section.aboutUs>ul.category>li>ol li{
