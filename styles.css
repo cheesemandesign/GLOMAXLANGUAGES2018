@@ -235,11 +235,12 @@ section.aboutUs>ul.category>li>h4:nth-child(2){
   font-size:56px;
 }
 section.aboutUs>ul.category>li>h5{
-  padding:0 16px;
+  padding:20px 0;
 }
 section.aboutUs>ul.category>li>ol{
     font-size:17px;
     text-align:left;
+  margin-left:50px; 
 }
 section.aboutUs>ul.category>li>ol li{
     list-style:none;
