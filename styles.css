@@ -231,8 +231,11 @@ section.aboutUs>ul.category>li>h4{
   margin-top:-20px;
   font-size:70px;
 }
+section.aboutUs>ul.category>li>h4:nth-child(2){
+  font-size:56px;
+}
 section.aboutUs>ul.category>li>h5{
-  /**/
+  padding:0 16px;
 }
 section.aboutUs>ul.category>li>ol{
     font-size:17px;
