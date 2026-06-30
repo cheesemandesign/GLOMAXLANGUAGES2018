@@ -95,6 +95,80 @@
             <button class="btn prev" onclick="moveSlide(-1)">&#10094;</button>
             <button class="btn next" onclick="moveSlide(1)">&#10095;</button>
         </section>
+        <section class="intro">
+            <p>啟航你的未來留學規劃永遠不嫌早。</p>
+            <p>現在就與曜辰的專業顧問預約一對一深度諮詢，</p>
+            <p>讓我們憶起為你的夢想描繪具體藍圖。</p>
+            <h6>聯絡資訊</h6>
+            <ol>
+                <li>02-2345-6789</li>
+                <li>info@solarmax-edu.com</li>
+                <li>台北市大安區敦化南路二段XXXX號10樓</li>
+                <li>週一至週五 13:00-21:00/週六 10:00-18:00</li>
+            </ol>
+        </section>
+        <section classs="mail">
+            <div div="info">
+                <p>兒童美語/國高中英語</p>
+                <p>英語檢定/會話</p>
+                <p>德語檢定/會話</p>
+                <p>日語檢定/會話</p>
+                <p>西班牙語檢定/會話</p>
+                <p>韓語檢定/會話</p>
+                <p>法語檢定/會話</p>
+                <h6>
+                    <span>還有</span>
+                    <b>精美小禮物</b>
+                    <b>額滿為止</b>
+                </h6>
+            </div>
+            <div class="form">
+                <form action="/submit-your-form" method="POST">
+        
+                    <p class="form-group">
+                        <!--<label for="name">姓名</label>-->
+                        <input type="text" id="name" name="name" placeholder="請輸入您的姓名" required>
+                    </p>
+            
+                    <p class="form-group">
+                        <!--<label for="phone">電話</label>-->
+                        <input type="tel" id="phone" name="phone" placeholder="請輸入聯絡電話" required>
+                    </p>
+            
+                    <p class="form-group">
+                        <!--<label for="email">E-mail</label>-->
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </p>
+            
+                    <p class="form-group">
+                        <!--<label for="course">選擇課表</label>-->
+                        <select id="course" name="course" required>
+                            <option value="" disabled selected>-- 請選擇您要領取的課表 --</option>
+                            <option value="english">我要領取英語課表</option>
+                            <option value="german">我要領取德語課表</option>
+                            <option value="japanese">我要領取日語課表</option>
+                            <option value="spanish">我要領取西班牙語課表</option>
+                            <option value="korean">我要領取韓語課表</option>
+                            <option value="french">我要領取法語課表</option>
+                        </select>
+                    </p>
+            
+                    <p class="checkbox-group">
+                        <input type="checkbox" id="privacy" name="privacy" value="accepted" required>
+                        <label for="privacy">我已閱讀並接受個資保護聲明</label>
+                    </p>
+            
+                    <p class="submit-group">
+                        <button type="submit" class="submit-btn">立即索取</button>
+                    </p>
+
+                </form>
+            </div>
+        </section>
+        <footer>
+            <img class="logo" src="images/logo.png" />
+            <span>曜辰國際教育 版權所有</br>&copy; 2026 SOLARMAX International Education Inc. All Rights Reserved</span>
+        </footer>
     </main>
 </body>
     <script>
