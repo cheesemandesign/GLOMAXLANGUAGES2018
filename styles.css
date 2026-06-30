@@ -219,9 +219,19 @@ section.aboutUs>ul.category>li {
 section.aboutUs>ul.category>li>*{
     padding:0;
     margin:0 0 0 44%;
+    font-family:monospace;
+    text-align:center;
+}
+section.aboutUs>ul.category>li>h1{
+  margin-top:90px;
+  font-size:75px;
+}
+section.aboutUs>ul.category>li>h2{
+  margin-top:-30px;
+  font-size:88px;
 }
 section.aboutUs>ul.category>li>ol{
-
+    
     
 }
 section.aboutUs>ul.category>li>ol li{
